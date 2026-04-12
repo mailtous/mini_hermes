@@ -1,0 +1,20 @@
+model:
+  api_key: "lm-studio"
+  base_url: "http://localhost:1234/v1"
+  model: "qwen3.5-35b-a3b"
+  max_tokens: 400
+
+# Auxiliary model for summarization (same local model)
+aux_model:
+  model: "qwen3.5-35b-a3b"
+  max_tokens: 300
+
+# Learning loop nudge intervals
+learning:
+  memory_nudge_interval: 5    # every N user turns
+  skill_nudge_interval: 8     # every N tool-calling iterations
+  flush_min_turns: 3          # min turns before compression flush
+
+# Agent limits
+agent:
+  max_iterations: 15
