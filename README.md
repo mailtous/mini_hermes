@@ -127,4 +127,4 @@ All runtime data lives in `data/` (gitignored):
 
 ## Companion blog post
 
-See `doc/build-your-own-hermes.html` for a detailed walkthrough of the design decisions behind each component.
+See [Build a Mini Hermes Agent From Scratch](https://mesuvash.github.io/projects/mini-hermes/) for a detailed walkthrough of the design decisions behind each component.
