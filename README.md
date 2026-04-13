@@ -1,6 +1,8 @@
 # Mini-Hermes
 
-A minimal AI agent built from scratch with tool calling, persistent memory, self-improving skills, and context compression. Runs entirely on local models via [LM Studio](https://lmstudio.ai/).
+A minimal AI agent built from scratch with tool calling, persistent memory, self-improving skills, and context compression. Runs entirely on local models via [LM Studio](https://lmstudio.ai/). Inspired by [Hermes Agent](https://github.com/nousresearch/hermes-agent). For educational purposes only.
+
+**Blog post:** [Build a Mini Hermes Agent From Scratch](https://mesuvash.github.io/projects/mini-hermes/)
 
 ## What it does
 
