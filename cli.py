@@ -40,6 +40,33 @@ logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger("mini-hermes")
 
 
+def safe_input(prompt=""):
+    """Input function that handles encoding errors gracefully."""
+    import sys
+    import io
+
+    try:
+        return input(prompt)
+    except UnicodeDecodeError:
+        # Reconfigure stdin to handle encoding errors
+        if sys.stdin.encoding:
+            old_stdin = sys.stdin
+            try:
+                # Create a wrapper that handles encoding errors
+                sys.stdin = io.TextIOWrapper(
+                    sys.stdin.buffer,
+                    encoding=sys.stdin.encoding,
+                    errors='replace'
+                )
+                result = input(prompt)
+                sys.stdin = old_stdin
+                return result
+            except Exception:
+                sys.stdin = old_stdin
+                raise
+        raise
+
+
 def main():
     # ── Load config ──
     config_path = Path(__file__).parent / "config.yaml"
@@ -130,7 +157,7 @@ def main():
 
     while True:
         try:
-            user_input = input("\033[1;32myou >\033[0m ").strip()
+            user_input = safe_input("\033[1;32myou >\033[0m ").strip()
         except (EOFError, KeyboardInterrupt):
             print("\nGoodbye!")
             break
@@ -191,7 +218,7 @@ def main():
 
         if user_input == "/sessions":
             # Quick session search
-            query = input("Search query: ").strip()
+            query = safe_input("Search query: ").strip()
             if query:
                 result = recall.recall(query)
                 print(result if result else "No results.\n")
