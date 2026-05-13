@@ -35,36 +35,36 @@ import tools.terminal
 import tools.file_tools
 import tools.memory_tool
 import skills.manager
-
+import sys
+import io
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger("mini-hermes")
 
+# Module-level wrapper to persist across calls
+_stdin_wrapper = None
 
 def safe_input(prompt=""):
     """Input function that handles encoding errors gracefully."""
-    import sys
-    import io
+    global _stdin_wrapper
+
+    # Save original stdin
+    old_stdin = sys.stdin
+
+    # Reuse existing wrapper or create new one
+    if _stdin_wrapper is None:
+        _stdin_wrapper = io.TextIOWrapper(
+            sys.stdin.buffer,
+            encoding=sys.stdin.encoding or 'utf-8',
+            errors='replace'
+        )
 
     try:
+        # Replace stdin with wrapper
+        sys.stdin = _stdin_wrapper
         return input(prompt)
-    except UnicodeDecodeError:
-        # Reconfigure stdin to handle encoding errors
-        if sys.stdin.encoding:
-            old_stdin = sys.stdin
-            try:
-                # Create a wrapper that handles encoding errors
-                sys.stdin = io.TextIOWrapper(
-                    sys.stdin.buffer,
-                    encoding=sys.stdin.encoding,
-                    errors='replace'
-                )
-                result = input(prompt)
-                sys.stdin = old_stdin
-                return result
-            except Exception:
-                sys.stdin = old_stdin
-                raise
-        raise
+    finally:
+        # Restore original stdin
+        sys.stdin = old_stdin
 
 
 def main():
