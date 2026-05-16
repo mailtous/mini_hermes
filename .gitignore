@@ -5,3 +5,5 @@ data/
 .claude/
 .idea/
 config.yaml
+.idea/**
+

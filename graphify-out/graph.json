@@ -1,0 +1,3690 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "agent.py",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L1",
+      "id": "agent_py",
+      "community": 1,
+      "norm_label": "agent.py"
+    },
+    {
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L23",
+      "id": "mini_hermes_agent_agent",
+      "community": 1,
+      "norm_label": "agent"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L26",
+      "id": "mini_hermes_agent_agent_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".set_handlers()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L60",
+      "id": "mini_hermes_agent_agent_set_handlers",
+      "community": 1,
+      "norm_label": ".set_handlers()"
+    },
+    {
+      "label": ".configure_learning()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L63",
+      "id": "mini_hermes_agent_agent_configure_learning",
+      "community": 1,
+      "norm_label": ".configure_learning()"
+    },
+    {
+      "label": ".set_compressor()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L68",
+      "id": "mini_hermes_agent_agent_set_compressor",
+      "community": 1,
+      "norm_label": ".set_compressor()"
+    },
+    {
+      "label": ".configure_caching()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L72",
+      "id": "mini_hermes_agent_agent_configure_caching",
+      "community": 1,
+      "norm_label": ".configure_caching()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L76",
+      "id": "mini_hermes_agent_agent_run",
+      "community": 1,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "._call_llm()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L152",
+      "id": "mini_hermes_agent_agent_call_llm",
+      "community": 1,
+      "norm_label": "._call_llm()"
+    },
+    {
+      "label": "._prepare_api_messages()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L187",
+      "id": "mini_hermes_agent_agent_prepare_api_messages",
+      "community": 1,
+      "norm_label": "._prepare_api_messages()"
+    },
+    {
+      "label": "._execute_tool()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L206",
+      "id": "mini_hermes_agent_agent_execute_tool",
+      "community": 1,
+      "norm_label": "._execute_tool()"
+    },
+    {
+      "label": "._persist_message()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L219",
+      "id": "mini_hermes_agent_agent_persist_message",
+      "community": 1,
+      "norm_label": "._persist_message()"
+    },
+    {
+      "label": "._spawn_background_review()",
+      "file_type": "code",
+      "source_file": "agent.py",
+      "source_location": "L255",
+      "id": "mini_hermes_agent_agent_spawn_background_review",
+      "community": 1,
+      "norm_label": "._spawn_background_review()"
+    },
+    {
+      "label": "Mini-Hermes Agent (Chapters 3, 6, 13, 14)  Core agent loop with: - Tool calling",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L1",
+      "id": "mini_hermes_agent_rationale_1",
+      "community": 1,
+      "norm_label": "mini-hermes agent (chapters 3, 6, 13, 14)  core agent loop with: - tool calling"
+    },
+    {
+      "label": "Core agent loop: message -> tools -> response.",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L24",
+      "id": "mini_hermes_agent_rationale_24",
+      "community": 1,
+      "norm_label": "core agent loop: message -> tools -> response."
+    },
+    {
+      "label": "Set the ContextCompressor (Chapter 14).",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L69",
+      "id": "mini_hermes_agent_rationale_69",
+      "community": 1,
+      "norm_label": "set the contextcompressor (chapter 14)."
+    },
+    {
+      "label": "Enable prompt caching (Chapter 6). Only useful for Anthropic models.",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L73",
+      "id": "mini_hermes_agent_rationale_73",
+      "community": 1,
+      "norm_label": "enable prompt caching (chapter 6). only useful for anthropic models."
+    },
+    {
+      "label": "Run the agent loop for a single user turn. Returns final text.",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L77",
+      "id": "mini_hermes_agent_rationale_77",
+      "community": 1,
+      "norm_label": "run the agent loop for a single user turn. returns final text."
+    },
+    {
+      "label": "Make one API call with tool schemas.",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L153",
+      "id": "mini_hermes_agent_rationale_153",
+      "community": 1,
+      "norm_label": "make one api call with tool schemas."
+    },
+    {
+      "label": "Prepare messages for API call, stripping internal fields.",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L188",
+      "id": "mini_hermes_agent_rationale_188",
+      "community": 1,
+      "norm_label": "prepare messages for api call, stripping internal fields."
+    },
+    {
+      "label": "Fork a review agent on a background thread (Chapter 13).",
+      "file_type": "rationale",
+      "source_file": "agent.py",
+      "source_location": "L257",
+      "id": "mini_hermes_agent_rationale_257",
+      "community": 1,
+      "norm_label": "fork a review agent on a background thread (chapter 13)."
+    },
+    {
+      "label": "cli.py",
+      "file_type": "code",
+      "source_file": "cli.py",
+      "source_location": "L1",
+      "id": "cli_py",
+      "community": 10,
+      "norm_label": "cli.py"
+    },
+    {
+      "label": "safe_input()",
+      "file_type": "code",
+      "source_file": "cli.py",
+      "source_location": "L46",
+      "id": "mini_hermes_cli_safe_input",
+      "community": 10,
+      "norm_label": "safe_input()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "cli.py",
+      "source_location": "L70",
+      "id": "mini_hermes_cli_main",
+      "community": 10,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Input function that handles encoding errors gracefully.",
+      "file_type": "rationale",
+      "source_file": "cli.py",
+      "source_location": "L47",
+      "id": "mini_hermes_cli_rationale_47",
+      "community": 10,
+      "norm_label": "input function that handles encoding errors gracefully."
+    },
+    {
+      "label": "compression.py",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L1",
+      "id": "compression_py",
+      "community": 5,
+      "norm_label": "compression.py"
+    },
+    {
+      "label": "ContextCompressor",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L12",
+      "id": "mini_hermes_compression_contextcompressor",
+      "community": 5,
+      "norm_label": "contextcompressor"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L18",
+      "id": "mini_hermes_compression_contextcompressor_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".maybe_compress()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L26",
+      "id": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "community": 5,
+      "norm_label": ".maybe_compress()"
+    },
+    {
+      "label": "._estimate_tokens()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L51",
+      "id": "mini_hermes_compression_contextcompressor_estimate_tokens",
+      "community": 5,
+      "norm_label": "._estimate_tokens()"
+    },
+    {
+      "label": "._get_tail()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L58",
+      "id": "mini_hermes_compression_contextcompressor_get_tail",
+      "community": 5,
+      "norm_label": "._get_tail()"
+    },
+    {
+      "label": "._summarize_middle()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L72",
+      "id": "mini_hermes_compression_contextcompressor_summarize_middle",
+      "community": 5,
+      "norm_label": "._summarize_middle()"
+    },
+    {
+      "label": "flush_memories()",
+      "file_type": "code",
+      "source_file": "compression.py",
+      "source_location": "L101",
+      "id": "mini_hermes_compression_flush_memories",
+      "community": 5,
+      "norm_label": "flush_memories()"
+    },
+    {
+      "label": "Context Compression (Chapter 14)  Middle-out compression: protect head + tail, s",
+      "file_type": "rationale",
+      "source_file": "compression.py",
+      "source_location": "L1",
+      "id": "mini_hermes_compression_rationale_1",
+      "community": 5,
+      "norm_label": "context compression (chapter 14)  middle-out compression: protect head + tail, s"
+    },
+    {
+      "label": "Compress if approaching context window limit.          Returns the (possibly com",
+      "file_type": "rationale",
+      "source_file": "compression.py",
+      "source_location": "L27",
+      "id": "mini_hermes_compression_rationale_27",
+      "community": 5,
+      "norm_label": "compress if approaching context window limit.          returns the (possibly com"
+    },
+    {
+      "label": "Get the most recent messages fitting within max_tokens.",
+      "file_type": "rationale",
+      "source_file": "compression.py",
+      "source_location": "L60",
+      "id": "mini_hermes_compression_rationale_60",
+      "community": 5,
+      "norm_label": "get the most recent messages fitting within max_tokens."
+    },
+    {
+      "label": "Give the agent one turn to save memories before compression.      Appends a user",
+      "file_type": "rationale",
+      "source_file": "compression.py",
+      "source_location": "L103",
+      "id": "mini_hermes_compression_rationale_103",
+      "community": 5,
+      "norm_label": "give the agent one turn to save memories before compression.      appends a user"
+    },
+    {
+      "label": "prompt_builder.py",
+      "file_type": "code",
+      "source_file": "prompt_builder.py",
+      "source_location": "L1",
+      "id": "prompt_builder_py",
+      "community": 10,
+      "norm_label": "prompt_builder.py"
+    },
+    {
+      "label": "PromptBuilder",
+      "file_type": "code",
+      "source_file": "prompt_builder.py",
+      "source_location": "L9",
+      "id": "mini_hermes_prompt_builder_promptbuilder",
+      "community": 10,
+      "norm_label": "promptbuilder"
+    },
+    {
+      "label": ".build()",
+      "file_type": "code",
+      "source_file": "prompt_builder.py",
+      "source_location": "L10",
+      "id": "mini_hermes_prompt_builder_promptbuilder_build",
+      "community": 10,
+      "norm_label": ".build()"
+    },
+    {
+      "label": "Prompt Builder (Chapter 5)  Assembles the system prompt from identity + memory +",
+      "file_type": "rationale",
+      "source_file": "prompt_builder.py",
+      "source_location": "L1",
+      "id": "mini_hermes_prompt_builder_rationale_1",
+      "community": 10,
+      "norm_label": "prompt builder (chapter 5)  assembles the system prompt from identity + memory +"
+    },
+    {
+      "label": "prompt_caching.py",
+      "file_type": "code",
+      "source_file": "prompt_caching.py",
+      "source_location": "L1",
+      "id": "prompt_caching_py",
+      "community": 12,
+      "norm_label": "prompt_caching.py"
+    },
+    {
+      "label": "apply_prompt_caching()",
+      "file_type": "code",
+      "source_file": "prompt_caching.py",
+      "source_location": "L15",
+      "id": "mini_hermes_prompt_caching_apply_prompt_caching",
+      "community": 12,
+      "norm_label": "apply_prompt_caching()"
+    },
+    {
+      "label": "_mark_message()",
+      "file_type": "code",
+      "source_file": "prompt_caching.py",
+      "source_location": "L47",
+      "id": "mini_hermes_prompt_caching_mark_message",
+      "community": 12,
+      "norm_label": "_mark_message()"
+    },
+    {
+      "label": "Prompt Caching (Chapter 6)  system_and_3 strategy: cache the system prompt + las",
+      "file_type": "rationale",
+      "source_file": "prompt_caching.py",
+      "source_location": "L1",
+      "id": "mini_hermes_prompt_caching_rationale_1",
+      "community": 12,
+      "norm_label": "prompt caching (chapter 6)  system_and_3 strategy: cache the system prompt + las"
+    },
+    {
+      "label": "Apply system_and_3 caching: system prompt + last 3 messages.      Returns a deep",
+      "file_type": "rationale",
+      "source_file": "prompt_caching.py",
+      "source_location": "L17",
+      "id": "mini_hermes_prompt_caching_rationale_17",
+      "community": 12,
+      "norm_label": "apply system_and_3 caching: system prompt + last 3 messages.      returns a deep"
+    },
+    {
+      "label": "Add cache_control to a message, handling string and list content.",
+      "file_type": "rationale",
+      "source_file": "prompt_caching.py",
+      "source_location": "L48",
+      "id": "mini_hermes_prompt_caching_rationale_48",
+      "community": 12,
+      "norm_label": "add cache_control to a message, handling string and list content."
+    },
+    {
+      "label": "tool_calling.py",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L1",
+      "id": "tool_calling_py",
+      "community": 0,
+      "norm_label": "tool_calling.py"
+    },
+    {
+      "label": "ParsedToolCall",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L26",
+      "id": "mini_hermes_tool_calling_parsedtoolcall",
+      "community": 0,
+      "norm_label": "parsedtoolcall"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L30",
+      "id": "mini_hermes_tool_calling_parsedtoolcall_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "ToolCallingStrategy",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L40",
+      "id": "mini_hermes_tool_calling_toolcallingstrategy",
+      "community": 7,
+      "norm_label": "toolcallingstrategy"
+    },
+    {
+      "label": ".prepare_kwargs()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L43",
+      "id": "mini_hermes_tool_calling_toolcallingstrategy_prepare_kwargs",
+      "community": 7,
+      "norm_label": ".prepare_kwargs()"
+    },
+    {
+      "label": ".parse_response()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L47",
+      "id": "mini_hermes_tool_calling_toolcallingstrategy_parse_response",
+      "community": 7,
+      "norm_label": ".parse_response()"
+    },
+    {
+      "label": ".build_assistant_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L51",
+      "id": "mini_hermes_tool_calling_toolcallingstrategy_build_assistant_msg",
+      "community": 7,
+      "norm_label": ".build_assistant_msg()"
+    },
+    {
+      "label": ".build_tool_result_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L56",
+      "id": "mini_hermes_tool_calling_toolcallingstrategy_build_tool_result_msg",
+      "community": 7,
+      "norm_label": ".build_tool_result_msg()"
+    },
+    {
+      "label": "StructuredStrategy",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L66",
+      "id": "mini_hermes_tool_calling_structuredstrategy",
+      "community": 0,
+      "norm_label": "structuredstrategy"
+    },
+    {
+      "label": ".prepare_kwargs()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L69",
+      "id": "mini_hermes_tool_calling_structuredstrategy_prepare_kwargs",
+      "community": 0,
+      "norm_label": ".prepare_kwargs()"
+    },
+    {
+      "label": ".parse_response()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L75",
+      "id": "mini_hermes_tool_calling_structuredstrategy_parse_response",
+      "community": 0,
+      "norm_label": ".parse_response()"
+    },
+    {
+      "label": ".build_assistant_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L91",
+      "id": "mini_hermes_tool_calling_structuredstrategy_build_assistant_msg",
+      "community": 0,
+      "norm_label": ".build_assistant_msg()"
+    },
+    {
+      "label": ".build_tool_result_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L102",
+      "id": "mini_hermes_tool_calling_structuredstrategy_build_tool_result_msg",
+      "community": 0,
+      "norm_label": ".build_tool_result_msg()"
+    },
+    {
+      "label": "_parse_tool_json()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L139",
+      "id": "mini_hermes_tool_calling_parse_tool_json",
+      "community": 0,
+      "norm_label": "_parse_tool_json()"
+    },
+    {
+      "label": "_format_tools_as_text()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L183",
+      "id": "mini_hermes_tool_calling_format_tools_as_text",
+      "community": 0,
+      "norm_label": "_format_tools_as_text()"
+    },
+    {
+      "label": "TextStrategy",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L217",
+      "id": "mini_hermes_tool_calling_textstrategy",
+      "community": 0,
+      "norm_label": "textstrategy"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L220",
+      "id": "mini_hermes_tool_calling_textstrategy_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".prepare_kwargs()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L223",
+      "id": "mini_hermes_tool_calling_textstrategy_prepare_kwargs",
+      "community": 0,
+      "norm_label": ".prepare_kwargs()"
+    },
+    {
+      "label": ".parse_response()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L237",
+      "id": "mini_hermes_tool_calling_textstrategy_parse_response",
+      "community": 0,
+      "norm_label": ".parse_response()"
+    },
+    {
+      "label": ".build_assistant_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L254",
+      "id": "mini_hermes_tool_calling_textstrategy_build_assistant_msg",
+      "community": 0,
+      "norm_label": ".build_assistant_msg()"
+    },
+    {
+      "label": ".build_tool_result_msg()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L259",
+      "id": "mini_hermes_tool_calling_textstrategy_build_tool_result_msg",
+      "community": 0,
+      "norm_label": ".build_tool_result_msg()"
+    },
+    {
+      "label": "strategy_for_model()",
+      "file_type": "code",
+      "source_file": "tool_calling.py",
+      "source_location": "L279",
+      "id": "mini_hermes_tool_calling_strategy_for_model",
+      "community": 0,
+      "norm_label": "strategy_for_model()"
+    },
+    {
+      "label": "Tool-Calling Strategies (Chapter 3b)  Two strategies for tool calling depending",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L1",
+      "id": "mini_hermes_tool_calling_rationale_1",
+      "community": 0,
+      "norm_label": "tool-calling strategies (chapter 3b)  two strategies for tool calling depending"
+    },
+    {
+      "label": "A tool call extracted from a model response, regardless of format.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L27",
+      "id": "mini_hermes_tool_calling_rationale_27",
+      "community": 0,
+      "norm_label": "a tool call extracted from a model response, regardless of format."
+    },
+    {
+      "label": "Interface that the Agent delegates to.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L41",
+      "id": "mini_hermes_tool_calling_rationale_41",
+      "community": 7,
+      "norm_label": "interface that the agent delegates to."
+    },
+    {
+      "label": "Modify the chat-completion kwargs before the API call.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L44",
+      "id": "mini_hermes_tool_calling_rationale_44",
+      "community": 7,
+      "norm_label": "modify the chat-completion kwargs before the api call."
+    },
+    {
+      "label": "Return (text_content, [parsed_tool_calls]).",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L48",
+      "id": "mini_hermes_tool_calling_rationale_48",
+      "community": 7,
+      "norm_label": "return (text_content, [parsed_tool_calls])."
+    },
+    {
+      "label": "Build the assistant message to append to history.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L53",
+      "id": "mini_hermes_tool_calling_rationale_53",
+      "community": 7,
+      "norm_label": "build the assistant message to append to history."
+    },
+    {
+      "label": "Build the message that carries a tool result back to the model.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L58",
+      "id": "mini_hermes_tool_calling_rationale_58",
+      "community": 7,
+      "norm_label": "build the message that carries a tool result back to the model."
+    },
+    {
+      "label": "For models that support the `tools` API parameter.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L67",
+      "id": "mini_hermes_tool_calling_rationale_67",
+      "community": 0,
+      "norm_label": "for models that support the `tools` api parameter."
+    },
+    {
+      "label": "Try to parse one or more tool calls from a raw string.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L140",
+      "id": "mini_hermes_tool_calling_rationale_140",
+      "community": 0,
+      "norm_label": "try to parse one or more tool calls from a raw string."
+    },
+    {
+      "label": "Render tool schemas as plain-text instructions for the system prompt.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L184",
+      "id": "mini_hermes_tool_calling_rationale_184",
+      "community": 0,
+      "norm_label": "render tool schemas as plain-text instructions for the system prompt."
+    },
+    {
+      "label": "For models that emit tool calls as text (Gemma, LLaMA, etc.).",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L218",
+      "id": "mini_hermes_tool_calling_rationale_218",
+      "community": 0,
+      "norm_label": "for models that emit tool calls as text (gemma, llama, etc.)."
+    },
+    {
+      "label": "Return the right strategy based on model name heuristics.",
+      "file_type": "rationale",
+      "source_file": "tool_calling.py",
+      "source_location": "L280",
+      "id": "mini_hermes_tool_calling_rationale_280",
+      "community": 0,
+      "norm_label": "return the right strategy based on model name heuristics."
+    },
+    {
+      "label": "tool_registry.py",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L1",
+      "id": "tool_registry_py",
+      "community": 8,
+      "norm_label": "tool_registry.py"
+    },
+    {
+      "label": "ToolEntry",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L12",
+      "id": "mini_hermes_tool_registry_toolentry",
+      "community": 8,
+      "norm_label": "toolentry"
+    },
+    {
+      "label": "ToolRegistry",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L20",
+      "id": "mini_hermes_tool_registry_toolregistry",
+      "community": 8,
+      "norm_label": "toolregistry"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L21",
+      "id": "mini_hermes_tool_registry_toolregistry_init",
+      "community": 8,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L24",
+      "id": "mini_hermes_tool_registry_toolregistry_register",
+      "community": 8,
+      "norm_label": ".register()"
+    },
+    {
+      "label": ".get_schemas()",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L34",
+      "id": "mini_hermes_tool_registry_toolregistry_get_schemas",
+      "community": 8,
+      "norm_label": ".get_schemas()"
+    },
+    {
+      "label": ".get_handlers()",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L51",
+      "id": "mini_hermes_tool_registry_toolregistry_get_handlers",
+      "community": 8,
+      "norm_label": ".get_handlers()"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "tool_registry.py",
+      "source_location": "L54",
+      "id": "mini_hermes_tool_registry_toolregistry_execute",
+      "community": 8,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "Tool Registry (Chapter 4)  Register tools, expose OpenAI-compatible schemas, dis",
+      "file_type": "rationale",
+      "source_file": "tool_registry.py",
+      "source_location": "L1",
+      "id": "mini_hermes_tool_registry_rationale_1",
+      "community": 8,
+      "norm_label": "tool registry (chapter 4)  register tools, expose openai-compatible schemas, dis"
+    },
+    {
+      "label": "Return OpenAI-compatible tool schemas.",
+      "file_type": "rationale",
+      "source_file": "tool_registry.py",
+      "source_location": "L35",
+      "id": "mini_hermes_tool_registry_rationale_35",
+      "community": 8,
+      "norm_label": "return openai-compatible tool schemas."
+    },
+    {
+      "label": "persistent.py",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L1",
+      "id": "memory_persistent_py",
+      "community": 3,
+      "norm_label": "persistent.py"
+    },
+    {
+      "label": "PersistentMemory",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L11",
+      "id": "memory_persistent_persistentmemory",
+      "community": 3,
+      "norm_label": "persistentmemory"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L15",
+      "id": "memory_persistent_persistentmemory_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L21",
+      "id": "memory_persistent_persistentmemory_load",
+      "community": 3,
+      "norm_label": ".load()"
+    },
+    {
+      "label": ".save_observation()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L32",
+      "id": "memory_persistent_persistentmemory_save_observation",
+      "community": 3,
+      "norm_label": ".save_observation()"
+    },
+    {
+      "label": ".update_user_profile()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L44",
+      "id": "memory_persistent_persistentmemory_update_user_profile",
+      "community": 3,
+      "norm_label": ".update_user_profile()"
+    },
+    {
+      "label": ".read_memory()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L49",
+      "id": "memory_persistent_persistentmemory_read_memory",
+      "community": 3,
+      "norm_label": ".read_memory()"
+    },
+    {
+      "label": ".read_user()",
+      "file_type": "code",
+      "source_file": "memory/persistent.py",
+      "source_location": "L53",
+      "id": "memory_persistent_persistentmemory_read_user",
+      "community": 3,
+      "norm_label": ".read_user()"
+    },
+    {
+      "label": "Persistent Memory (Chapter 8)  MEMORY.md and USER.md files -- frozen snapshot lo",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L1",
+      "id": "memory_persistent_rationale_1",
+      "community": 3,
+      "norm_label": "persistent memory (chapter 8)  memory.md and user.md files -- frozen snapshot lo"
+    },
+    {
+      "label": "Load both files as a combined context block (frozen snapshot).",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L22",
+      "id": "memory_persistent_rationale_22",
+      "community": 3,
+      "norm_label": "load both files as a combined context block (frozen snapshot)."
+    },
+    {
+      "label": "Append an observation to MEMORY.md (writes to disk only).",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L33",
+      "id": "memory_persistent_rationale_33",
+      "community": 3,
+      "norm_label": "append an observation to memory.md (writes to disk only)."
+    },
+    {
+      "label": "Replace the user profile (writes to disk only).",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L45",
+      "id": "memory_persistent_rationale_45",
+      "community": 3,
+      "norm_label": "replace the user profile (writes to disk only)."
+    },
+    {
+      "label": "Read current memory contents.",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L50",
+      "id": "memory_persistent_rationale_50",
+      "community": 3,
+      "norm_label": "read current memory contents."
+    },
+    {
+      "label": "Read current user profile.",
+      "file_type": "rationale",
+      "source_file": "memory/persistent.py",
+      "source_location": "L54",
+      "id": "memory_persistent_rationale_54",
+      "community": 3,
+      "norm_label": "read current user profile."
+    },
+    {
+      "label": "recall.py",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L1",
+      "id": "memory_recall_py",
+      "community": 11,
+      "norm_label": "recall.py"
+    },
+    {
+      "label": "SessionRecall",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L11",
+      "id": "memory_recall_sessionrecall",
+      "community": 11,
+      "norm_label": "sessionrecall"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L12",
+      "id": "memory_recall_sessionrecall_init",
+      "community": 11,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".recall()",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L19",
+      "id": "memory_recall_sessionrecall_recall",
+      "community": 11,
+      "norm_label": ".recall()"
+    },
+    {
+      "label": "._format_transcript()",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L48",
+      "id": "memory_recall_sessionrecall_format_transcript",
+      "community": 11,
+      "norm_label": "._format_transcript()"
+    },
+    {
+      "label": "._summarize()",
+      "file_type": "code",
+      "source_file": "memory/recall.py",
+      "source_location": "L56",
+      "id": "memory_recall_sessionrecall_summarize",
+      "community": 11,
+      "norm_label": "._summarize()"
+    },
+    {
+      "label": "Cross-Session Recall (Chapter 9)  FTS5 search -> group by session -> summarize v",
+      "file_type": "rationale",
+      "source_file": "memory/recall.py",
+      "source_location": "L1",
+      "id": "memory_recall_rationale_1",
+      "community": 11,
+      "norm_label": "cross-session recall (chapter 9)  fts5 search -> group by session -> summarize v"
+    },
+    {
+      "label": "Search past sessions and return summarized context.",
+      "file_type": "rationale",
+      "source_file": "memory/recall.py",
+      "source_location": "L20",
+      "id": "memory_recall_rationale_20",
+      "community": 11,
+      "norm_label": "search past sessions and return summarized context."
+    },
+    {
+      "label": "session_db.py",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L1",
+      "id": "memory_session_db_py",
+      "community": 4,
+      "norm_label": "session_db.py"
+    },
+    {
+      "label": "SessionDB",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L15",
+      "id": "memory_session_db_sessiondb",
+      "community": 4,
+      "norm_label": "sessiondb"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L16",
+      "id": "memory_session_db_sessiondb_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._create_tables()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L22",
+      "id": "memory_session_db_sessiondb_create_tables",
+      "community": 4,
+      "norm_label": "._create_tables()"
+    },
+    {
+      "label": ".create_session()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L49",
+      "id": "memory_session_db_sessiondb_create_session",
+      "community": 4,
+      "norm_label": ".create_session()"
+    },
+    {
+      "label": ".get_session()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L60",
+      "id": "memory_session_db_sessiondb_get_session",
+      "community": 4,
+      "norm_label": ".get_session()"
+    },
+    {
+      "label": ".append_message()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L72",
+      "id": "memory_session_db_sessiondb_append_message",
+      "community": 4,
+      "norm_label": ".append_message()"
+    },
+    {
+      "label": ".search()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L102",
+      "id": "memory_session_db_sessiondb_search",
+      "community": 4,
+      "norm_label": ".search()"
+    },
+    {
+      "label": ".get_session_messages()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L131",
+      "id": "memory_session_db_sessiondb_get_session_messages",
+      "community": 4,
+      "norm_label": ".get_session_messages()"
+    },
+    {
+      "label": ".end_session()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L145",
+      "id": "memory_session_db_sessiondb_end_session",
+      "community": 4,
+      "norm_label": ".end_session()"
+    },
+    {
+      "label": "._sanitize_fts_query()",
+      "file_type": "code",
+      "source_file": "memory/session_db.py",
+      "source_location": "L152",
+      "id": "memory_session_db_sessiondb_sanitize_fts_query",
+      "community": 4,
+      "norm_label": "._sanitize_fts_query()"
+    },
+    {
+      "label": "Session Database (Chapter 7)  SQLite + FTS5 for episodic memory. Stores every co",
+      "file_type": "rationale",
+      "source_file": "memory/session_db.py",
+      "source_location": "L1",
+      "id": "memory_session_db_rationale_1",
+      "community": 4,
+      "norm_label": "session database (chapter 7)  sqlite + fts5 for episodic memory. stores every co"
+    },
+    {
+      "label": "Full-text search across all sessions.",
+      "file_type": "rationale",
+      "source_file": "memory/session_db.py",
+      "source_location": "L103",
+      "id": "memory_session_db_rationale_103",
+      "community": 4,
+      "norm_label": "full-text search across all sessions."
+    },
+    {
+      "label": "Clean user input for FTS5 safety.",
+      "file_type": "rationale",
+      "source_file": "memory/session_db.py",
+      "source_location": "L153",
+      "id": "memory_session_db_rationale_153",
+      "community": 4,
+      "norm_label": "clean user input for fts5 safety."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "memory/__init__.py",
+      "source_location": "L1",
+      "id": "memory_init_py",
+      "community": 17,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "loader.py",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L1",
+      "id": "skills_loader_py",
+      "community": 6,
+      "norm_label": "loader.py"
+    },
+    {
+      "label": "SkillLoader",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L12",
+      "id": "skills_loader_skillloader",
+      "community": 6,
+      "norm_label": "skillloader"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L13",
+      "id": "skills_loader_skillloader_init",
+      "community": 6,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".load_all()",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L17",
+      "id": "skills_loader_skillloader_load_all",
+      "community": 6,
+      "norm_label": ".load_all()"
+    },
+    {
+      "label": ".build_skills_index()",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L33",
+      "id": "skills_loader_skillloader_build_skills_index",
+      "community": 6,
+      "norm_label": ".build_skills_index()"
+    },
+    {
+      "label": ".find_skill()",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L44",
+      "id": "skills_loader_skillloader_find_skill",
+      "community": 6,
+      "norm_label": ".find_skill()"
+    },
+    {
+      "label": "._parse_frontmatter()",
+      "file_type": "code",
+      "source_file": "skills/loader.py",
+      "source_location": "L51",
+      "id": "skills_loader_skillloader_parse_frontmatter",
+      "community": 6,
+      "norm_label": "._parse_frontmatter()"
+    },
+    {
+      "label": "Skill Loader (Chapter 10)  Discover SKILL.md files in folders, parse frontmatter",
+      "file_type": "rationale",
+      "source_file": "skills/loader.py",
+      "source_location": "L1",
+      "id": "skills_loader_rationale_1",
+      "community": 6,
+      "norm_label": "skill loader (chapter 10)  discover skill.md files in folders, parse frontmatter"
+    },
+    {
+      "label": "Load all skill folders, return name + description + body + path.",
+      "file_type": "rationale",
+      "source_file": "skills/loader.py",
+      "source_location": "L18",
+      "id": "skills_loader_rationale_18",
+      "community": 6,
+      "norm_label": "load all skill folders, return name + description + body + path."
+    },
+    {
+      "label": "Build summary index for system prompt (tier 1: metadata only).",
+      "file_type": "rationale",
+      "source_file": "skills/loader.py",
+      "source_location": "L34",
+      "id": "skills_loader_rationale_34",
+      "community": 6,
+      "norm_label": "build summary index for system prompt (tier 1: metadata only)."
+    },
+    {
+      "label": "Find a skill by name.",
+      "file_type": "rationale",
+      "source_file": "skills/loader.py",
+      "source_location": "L45",
+      "id": "skills_loader_rationale_45",
+      "community": 6,
+      "norm_label": "find a skill by name."
+    },
+    {
+      "label": "Split YAML frontmatter from markdown body.",
+      "file_type": "rationale",
+      "source_file": "skills/loader.py",
+      "source_location": "L52",
+      "id": "skills_loader_rationale_52",
+      "community": 6,
+      "norm_label": "split yaml frontmatter from markdown body."
+    },
+    {
+      "label": "manager.py",
+      "file_type": "code",
+      "source_file": "skills/manager.py",
+      "source_location": "L1",
+      "id": "skills_manager_py",
+      "community": 9,
+      "norm_label": "manager.py"
+    },
+    {
+      "label": "set_skill_loader()",
+      "file_type": "code",
+      "source_file": "skills/manager.py",
+      "source_location": "L18",
+      "id": "skills_manager_set_skill_loader",
+      "community": 9,
+      "norm_label": "set_skill_loader()"
+    },
+    {
+      "label": "skills_list()",
+      "file_type": "code",
+      "source_file": "skills/manager.py",
+      "source_location": "L24",
+      "id": "skills_manager_skills_list",
+      "community": 9,
+      "norm_label": "skills_list()"
+    },
+    {
+      "label": "skill_view()",
+      "file_type": "code",
+      "source_file": "skills/manager.py",
+      "source_location": "L41",
+      "id": "skills_manager_skill_view",
+      "community": 9,
+      "norm_label": "skill_view()"
+    },
+    {
+      "label": "skill_manage()",
+      "file_type": "code",
+      "source_file": "skills/manager.py",
+      "source_location": "L56",
+      "id": "skills_manager_skill_manage",
+      "community": 9,
+      "norm_label": "skill_manage()"
+    },
+    {
+      "label": "Skill Manager (Chapter 10-12)  skill_manage tool: create, patch, edit, delete. s",
+      "file_type": "rationale",
+      "source_file": "skills/manager.py",
+      "source_location": "L1",
+      "id": "skills_manager_rationale_1",
+      "community": 9,
+      "norm_label": "skill manager (chapter 10-12)  skill_manage tool: create, patch, edit, delete. s"
+    },
+    {
+      "label": "List all skills with metadata (progressive disclosure tier 1).",
+      "file_type": "rationale",
+      "source_file": "skills/manager.py",
+      "source_location": "L25",
+      "id": "skills_manager_rationale_25",
+      "community": 9,
+      "norm_label": "list all skills with metadata (progressive disclosure tier 1)."
+    },
+    {
+      "label": "Load full skill content (progressive disclosure tier 2-3).",
+      "file_type": "rationale",
+      "source_file": "skills/manager.py",
+      "source_location": "L42",
+      "id": "skills_manager_rationale_42",
+      "community": 9,
+      "norm_label": "load full skill content (progressive disclosure tier 2-3)."
+    },
+    {
+      "label": "Manage skills: create, edit, patch, delete, write_file, remove_file.",
+      "file_type": "rationale",
+      "source_file": "skills/manager.py",
+      "source_location": "L60",
+      "id": "skills_manager_rationale_60",
+      "community": 9,
+      "norm_label": "manage skills: create, edit, patch, delete, write_file, remove_file."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "skills/__init__.py",
+      "source_location": "L1",
+      "id": "skills_init_py",
+      "community": 18,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "file_tools.py",
+      "file_type": "code",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L1",
+      "id": "tools_file_tools_py",
+      "community": 13,
+      "norm_label": "file_tools.py"
+    },
+    {
+      "label": "read_file()",
+      "file_type": "code",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L11",
+      "id": "tools_file_tools_read_file",
+      "community": 13,
+      "norm_label": "read_file()"
+    },
+    {
+      "label": "write_file()",
+      "file_type": "code",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L27",
+      "id": "tools_file_tools_write_file",
+      "community": 13,
+      "norm_label": "write_file()"
+    },
+    {
+      "label": "File tools (Chapter 4)  Read and write files.",
+      "file_type": "rationale",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L1",
+      "id": "tools_file_tools_rationale_1",
+      "community": 13,
+      "norm_label": "file tools (chapter 4)  read and write files."
+    },
+    {
+      "label": "Read a file and return its contents.",
+      "file_type": "rationale",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L12",
+      "id": "tools_file_tools_rationale_12",
+      "community": 13,
+      "norm_label": "read a file and return its contents."
+    },
+    {
+      "label": "Write content to a file, creating directories as needed.",
+      "file_type": "rationale",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L28",
+      "id": "tools_file_tools_rationale_28",
+      "community": 13,
+      "norm_label": "write content to a file, creating directories as needed."
+    },
+    {
+      "label": "memory_tool.py",
+      "file_type": "code",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L1",
+      "id": "tools_memory_tool_py",
+      "community": 14,
+      "norm_label": "memory_tool.py"
+    },
+    {
+      "label": "set_memory()",
+      "file_type": "code",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L14",
+      "id": "tools_memory_tool_set_memory",
+      "community": 14,
+      "norm_label": "set_memory()"
+    },
+    {
+      "label": "memory()",
+      "file_type": "code",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L20",
+      "id": "tools_memory_tool_memory",
+      "community": 14,
+      "norm_label": "memory()"
+    },
+    {
+      "label": "Memory tool (Chapter 8)  Exposes persistent memory to the agent as a callable to",
+      "file_type": "rationale",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L1",
+      "id": "tools_memory_tool_rationale_1",
+      "community": 14,
+      "norm_label": "memory tool (chapter 8)  exposes persistent memory to the agent as a callable to"
+    },
+    {
+      "label": "Unified memory tool: save, read, search.",
+      "file_type": "rationale",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L21",
+      "id": "tools_memory_tool_rationale_21",
+      "community": 14,
+      "norm_label": "unified memory tool: save, read, search."
+    },
+    {
+      "label": "terminal.py",
+      "file_type": "code",
+      "source_file": "tools/terminal.py",
+      "source_location": "L1",
+      "id": "tools_terminal_py",
+      "community": 15,
+      "norm_label": "terminal.py"
+    },
+    {
+      "label": "run_terminal()",
+      "file_type": "code",
+      "source_file": "tools/terminal.py",
+      "source_location": "L11",
+      "id": "tools_terminal_run_terminal",
+      "community": 15,
+      "norm_label": "run_terminal()"
+    },
+    {
+      "label": "Terminal tool (Chapter 4)  Execute shell commands with timeout and output trunca",
+      "file_type": "rationale",
+      "source_file": "tools/terminal.py",
+      "source_location": "L1",
+      "id": "tools_terminal_rationale_1",
+      "community": 15,
+      "norm_label": "terminal tool (chapter 4)  execute shell commands with timeout and output trunca"
+    },
+    {
+      "label": "Execute a shell command and return stdout + stderr.",
+      "file_type": "rationale",
+      "source_file": "tools/terminal.py",
+      "source_location": "L12",
+      "id": "tools_terminal_rationale_12",
+      "community": 15,
+      "norm_label": "execute a shell command and return stdout + stderr."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tools/__init__.py",
+      "source_location": "L1",
+      "id": "tools_init_py",
+      "community": 16,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "Tool modules. Import to trigger registration.",
+      "file_type": "rationale",
+      "source_file": "tools/__init__.py",
+      "source_location": "L1",
+      "id": "tools_init_rationale_1",
+      "community": 16,
+      "norm_label": "tool modules. import to trigger registration."
+    },
+    {
+      "label": "Dual Tool-Calling Strategies",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "concept_dual_tool_calling",
+      "community": 2,
+      "norm_label": "dual tool-calling strategies"
+    },
+    {
+      "label": "Three-Tier Memory",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "concept_three_tier_memory",
+      "community": 2,
+      "norm_label": "three-tier memory"
+    },
+    {
+      "label": "Self-Improving Skills",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "concept_self_improving_skills",
+      "community": 2,
+      "norm_label": "self-improving skills"
+    },
+    {
+      "label": "Learning Loop",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "concept_learning_loop",
+      "community": 2,
+      "norm_label": "learning loop"
+    },
+    {
+      "label": "Context Compression",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "concept_context_compression",
+      "community": 2,
+      "norm_label": "context compression"
+    },
+    {
+      "label": "CLI Interface",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_cli",
+      "community": 2,
+      "norm_label": "cli interface"
+    },
+    {
+      "label": "Core Agent",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_agent",
+      "community": 2,
+      "norm_label": "core agent"
+    },
+    {
+      "label": "Tool Calling",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_tool_calling",
+      "community": 2,
+      "norm_label": "tool calling"
+    },
+    {
+      "label": "Tool Registry",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_tool_registry",
+      "community": 2,
+      "norm_label": "tool registry"
+    },
+    {
+      "label": "Prompt Builder",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_prompt_builder",
+      "community": 2,
+      "norm_label": "prompt builder"
+    },
+    {
+      "label": "Prompt Caching",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_prompt_caching",
+      "community": 2,
+      "norm_label": "prompt caching"
+    },
+    {
+      "label": "Context Compression",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_compression",
+      "community": 2,
+      "norm_label": "context compression"
+    },
+    {
+      "label": "Tools Module",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_tools",
+      "community": 2,
+      "norm_label": "tools module"
+    },
+    {
+      "label": "Memory Module",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_memory",
+      "community": 2,
+      "norm_label": "memory module"
+    },
+    {
+      "label": "Skills Module",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "component_skills",
+      "community": 2,
+      "norm_label": "skills module"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "agent_py",
+      "target": "mini_hermes_agent_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_1",
+      "target": "agent_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_set_handlers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_configure_learning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_set_compressor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_configure_caching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_call_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_prepare_api_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_execute_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_persist_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_agent_agent_spawn_background_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_24",
+      "target": "mini_hermes_agent_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "agent.py",
+      "source_location": "L18",
+      "weight": 0.8,
+      "source": "mini_hermes_agent_agent",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "mini_hermes_agent_agent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agent.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_init",
+      "target": "mini_hermes_tool_calling_strategy_for_model"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_69",
+      "target": "mini_hermes_agent_agent_set_compressor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_73",
+      "target": "mini_hermes_agent_agent_configure_caching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_run",
+      "target": "mini_hermes_agent_agent_persist_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_run",
+      "target": "mini_hermes_agent_agent_call_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_run",
+      "target": "mini_hermes_agent_agent_execute_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_run",
+      "target": "mini_hermes_agent_agent_spawn_background_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_77",
+      "target": "mini_hermes_agent_agent_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_call_llm",
+      "target": "mini_hermes_agent_agent_prepare_api_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_153",
+      "target": "mini_hermes_agent_agent_call_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agent.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_call_llm",
+      "target": "mini_hermes_compression_flush_memories"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agent.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_agent_call_llm",
+      "target": "mini_hermes_prompt_caching_apply_prompt_caching"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_188",
+      "target": "mini_hermes_agent_agent_prepare_api_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agent.py",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "mini_hermes_agent_rationale_257",
+      "target": "mini_hermes_agent_agent_spawn_background_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cli.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "cli_py",
+      "target": "mini_hermes_cli_safe_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cli.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "cli_py",
+      "target": "mini_hermes_cli_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cli.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "mini_hermes_cli_safe_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "cli.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_rationale_47",
+      "target": "mini_hermes_cli_safe_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "memory_session_db_sessiondb"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "memory_persistent_persistentmemory"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "skills_loader_skillloader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "memory_recall_sessionrecall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "mini_hermes_prompt_builder_promptbuilder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "mini_hermes_compression_contextcompressor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "cli.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "mini_hermes_cli_main",
+      "target": "mini_hermes_tool_calling_strategy_for_model"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "compression_py",
+      "target": "mini_hermes_compression_contextcompressor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "compression_py",
+      "target": "mini_hermes_compression_flush_memories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_rationale_1",
+      "target": "compression_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor",
+      "target": "mini_hermes_compression_contextcompressor_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor",
+      "target": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor",
+      "target": "mini_hermes_compression_contextcompressor_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor",
+      "target": "mini_hermes_compression_contextcompressor_get_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor",
+      "target": "mini_hermes_compression_contextcompressor_summarize_middle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "target": "mini_hermes_compression_contextcompressor_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "target": "mini_hermes_compression_contextcompressor_get_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "target": "mini_hermes_compression_contextcompressor_summarize_middle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_rationale_27",
+      "target": "mini_hermes_compression_contextcompressor_maybe_compress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_rationale_60",
+      "target": "mini_hermes_compression_contextcompressor_get_tail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "compression.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "mini_hermes_compression_rationale_103",
+      "target": "mini_hermes_compression_flush_memories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_builder.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "prompt_builder_py",
+      "target": "mini_hermes_prompt_builder_promptbuilder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_builder.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_builder_rationale_1",
+      "target": "prompt_builder_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_builder.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_builder_promptbuilder",
+      "target": "mini_hermes_prompt_builder_promptbuilder_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "prompt_caching_py",
+      "target": "mini_hermes_prompt_caching_apply_prompt_caching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "prompt_caching_py",
+      "target": "mini_hermes_prompt_caching_mark_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_caching_rationale_1",
+      "target": "prompt_caching_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_caching_apply_prompt_caching",
+      "target": "mini_hermes_prompt_caching_mark_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_caching_rationale_17",
+      "target": "mini_hermes_prompt_caching_apply_prompt_caching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt_caching.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "mini_hermes_prompt_caching_rationale_48",
+      "target": "mini_hermes_prompt_caching_mark_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_parsedtoolcall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_structuredstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_parse_tool_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_format_tools_as_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_textstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "tool_calling_py",
+      "target": "mini_hermes_tool_calling_strategy_for_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_1",
+      "target": "tool_calling_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_parsedtoolcall",
+      "target": "mini_hermes_tool_calling_parsedtoolcall_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy_parse_response",
+      "target": "mini_hermes_tool_calling_parsedtoolcall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_parse_tool_json",
+      "target": "mini_hermes_tool_calling_parsedtoolcall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_27",
+      "target": "mini_hermes_tool_calling_parsedtoolcall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_toolcallingstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_prepare_kwargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_toolcallingstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_parse_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_toolcallingstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_build_assistant_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_toolcallingstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_build_tool_result_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_41",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_44",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_prepare_kwargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_48",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_parse_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_53",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_build_assistant_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_58",
+      "target": "mini_hermes_tool_calling_toolcallingstrategy_build_tool_result_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy",
+      "target": "mini_hermes_tool_calling_structuredstrategy_prepare_kwargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy",
+      "target": "mini_hermes_tool_calling_structuredstrategy_parse_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy",
+      "target": "mini_hermes_tool_calling_structuredstrategy_build_assistant_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_structuredstrategy",
+      "target": "mini_hermes_tool_calling_structuredstrategy_build_tool_result_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L284",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_strategy_for_model",
+      "target": "mini_hermes_tool_calling_structuredstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_67",
+      "target": "mini_hermes_tool_calling_structuredstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy_parse_response",
+      "target": "mini_hermes_tool_calling_parse_tool_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_140",
+      "target": "mini_hermes_tool_calling_parse_tool_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy_prepare_kwargs",
+      "target": "mini_hermes_tool_calling_format_tools_as_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_184",
+      "target": "mini_hermes_tool_calling_format_tools_as_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_textstrategy_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_textstrategy_prepare_kwargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_textstrategy_parse_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_textstrategy_build_assistant_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_textstrategy",
+      "target": "mini_hermes_tool_calling_textstrategy_build_tool_result_msg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_strategy_for_model",
+      "target": "mini_hermes_tool_calling_textstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_218",
+      "target": "mini_hermes_tool_calling_textstrategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_calling.py",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_calling_rationale_280",
+      "target": "mini_hermes_tool_calling_strategy_for_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tool_registry_py",
+      "target": "mini_hermes_tool_registry_toolentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tool_registry_py",
+      "target": "mini_hermes_tool_registry_toolregistry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_rationale_1",
+      "target": "tool_registry_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry_register",
+      "target": "mini_hermes_tool_registry_toolentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry",
+      "target": "mini_hermes_tool_registry_toolregistry_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry",
+      "target": "mini_hermes_tool_registry_toolregistry_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry",
+      "target": "mini_hermes_tool_registry_toolregistry_get_schemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry",
+      "target": "mini_hermes_tool_registry_toolregistry_get_handlers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_toolregistry",
+      "target": "mini_hermes_tool_registry_toolregistry_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tool_registry.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "mini_hermes_tool_registry_rationale_35",
+      "target": "mini_hermes_tool_registry_toolregistry_get_schemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "memory_persistent_py",
+      "target": "memory_persistent_persistentmemory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_1",
+      "target": "memory_persistent_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_save_observation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_update_user_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_read_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "memory_persistent_persistentmemory",
+      "target": "memory_persistent_persistentmemory_read_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_22",
+      "target": "memory_persistent_persistentmemory_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_33",
+      "target": "memory_persistent_persistentmemory_save_observation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_45",
+      "target": "memory_persistent_persistentmemory_update_user_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_50",
+      "target": "memory_persistent_persistentmemory_read_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/persistent.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "memory_persistent_rationale_54",
+      "target": "memory_persistent_persistentmemory_read_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "memory_recall_py",
+      "target": "memory_recall_sessionrecall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "memory_recall_rationale_1",
+      "target": "memory_recall_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall",
+      "target": "memory_recall_sessionrecall_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall",
+      "target": "memory_recall_sessionrecall_recall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall",
+      "target": "memory_recall_sessionrecall_format_transcript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall",
+      "target": "memory_recall_sessionrecall_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "memory/recall.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "memory_recall_sessionrecall",
+      "target": "memory_session_db_sessiondb",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall_recall",
+      "target": "memory_recall_sessionrecall_format_transcript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "memory_recall_sessionrecall_recall",
+      "target": "memory_recall_sessionrecall_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/recall.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "memory_recall_rationale_20",
+      "target": "memory_recall_sessionrecall_recall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "memory_session_db_py",
+      "target": "memory_session_db_sessiondb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "memory_session_db_rationale_1",
+      "target": "memory_session_db_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_create_tables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_create_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_get_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_append_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_get_session_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_end_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb",
+      "target": "memory_session_db_sessiondb_sanitize_fts_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb_init",
+      "target": "memory_session_db_sessiondb_create_tables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "memory_session_db_sessiondb_search",
+      "target": "memory_session_db_sessiondb_sanitize_fts_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "memory_session_db_rationale_103",
+      "target": "memory_session_db_sessiondb_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "memory/session_db.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "memory_session_db_rationale_153",
+      "target": "memory_session_db_sessiondb_sanitize_fts_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "skills_loader_py",
+      "target": "skills_loader_skillloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "skills_loader_rationale_1",
+      "target": "skills_loader_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader",
+      "target": "skills_loader_skillloader_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader",
+      "target": "skills_loader_skillloader_load_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader",
+      "target": "skills_loader_skillloader_build_skills_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader",
+      "target": "skills_loader_skillloader_find_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader",
+      "target": "skills_loader_skillloader_parse_frontmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader_load_all",
+      "target": "skills_loader_skillloader_parse_frontmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader_build_skills_index",
+      "target": "skills_loader_skillloader_load_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "skills_loader_skillloader_find_skill",
+      "target": "skills_loader_skillloader_load_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "skills_loader_rationale_18",
+      "target": "skills_loader_skillloader_load_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "skills_loader_rationale_34",
+      "target": "skills_loader_skillloader_build_skills_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "skills_loader_rationale_45",
+      "target": "skills_loader_skillloader_find_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/loader.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "skills_loader_rationale_52",
+      "target": "skills_loader_skillloader_parse_frontmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "skills_manager_py",
+      "target": "skills_manager_set_skill_loader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "skills_manager_py",
+      "target": "skills_manager_skills_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "skills_manager_py",
+      "target": "skills_manager_skill_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "skills_manager_py",
+      "target": "skills_manager_skill_manage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "skills_manager_rationale_1",
+      "target": "skills_manager_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "skills_manager_rationale_25",
+      "target": "skills_manager_skills_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "skills_manager_rationale_42",
+      "target": "skills_manager_skill_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/manager.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "skills_manager_rationale_60",
+      "target": "skills_manager_skill_manage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tools_file_tools_py",
+      "target": "tools_file_tools_read_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tools_file_tools_py",
+      "target": "tools_file_tools_write_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tools_file_tools_rationale_1",
+      "target": "tools_file_tools_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tools_file_tools_rationale_12",
+      "target": "tools_file_tools_read_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/file_tools.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tools_file_tools_rationale_28",
+      "target": "tools_file_tools_write_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tools_memory_tool_py",
+      "target": "tools_memory_tool_set_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tools_memory_tool_py",
+      "target": "tools_memory_tool_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tools_memory_tool_rationale_1",
+      "target": "tools_memory_tool_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/memory_tool.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tools_memory_tool_rationale_21",
+      "target": "tools_memory_tool_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/terminal.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tools_terminal_py",
+      "target": "tools_terminal_run_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/terminal.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tools_terminal_rationale_1",
+      "target": "tools_terminal_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/terminal.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tools_terminal_rationale_12",
+      "target": "tools_terminal_run_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tools_init_rationale_1",
+      "target": "tools_init_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_tool_calling",
+      "target": "concept_dual_tool_calling"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_memory",
+      "target": "concept_three_tier_memory"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_skills",
+      "target": "concept_self_improving_skills"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_agent",
+      "target": "concept_learning_loop"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_compression",
+      "target": "concept_context_compression"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_agent"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_tool_calling"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_tool_registry"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_prompt_builder"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_prompt_caching"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_compression"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_tools"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_memory"
+    },
+    {
+      "relation": "wires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "component_cli",
+      "target": "component_skills"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "263ab2245c281f390dade4aec8394cf11e3494c2"
+}

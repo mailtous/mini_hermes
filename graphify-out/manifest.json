@@ -1,0 +1,86 @@
+{
+  "/data/work/py/mini_hermes/agent.py": {
+    "mtime": 1778945375.0860384,
+    "hash": "37cf2cd74bacb66505f7ab86f9bc76e9"
+  },
+  "/data/work/py/mini_hermes/cli.py": {
+    "mtime": 1778945375.0862331,
+    "hash": "fb730e374e6315733afb20f765f29b5e"
+  },
+  "/data/work/py/mini_hermes/compression.py": {
+    "mtime": 1778945375.0863776,
+    "hash": "30a901f6b91a74f5cd3c12ac894fc52d"
+  },
+  "/data/work/py/mini_hermes/prompt_builder.py": {
+    "mtime": 1778945375.087671,
+    "hash": "c541279aae6ff0b098119969b6da24a8"
+  },
+  "/data/work/py/mini_hermes/prompt_caching.py": {
+    "mtime": 1778945375.087811,
+    "hash": "64c77a59f95826c176c99bab98896ca7"
+  },
+  "/data/work/py/mini_hermes/tool_calling.py": {
+    "mtime": 1778945375.089988,
+    "hash": "0db51d64a4563de88c75ed410b60cfba"
+  },
+  "/data/work/py/mini_hermes/tool_registry.py": {
+    "mtime": 1778945375.0903187,
+    "hash": "8f30df428ea392562e64479e92ae7887"
+  },
+  "/data/work/py/mini_hermes/memory/persistent.py": {
+    "mtime": 1778945375.0870144,
+    "hash": "8493b3d69cabed5688f9ae0bbda48b75"
+  },
+  "/data/work/py/mini_hermes/memory/recall.py": {
+    "mtime": 1778945375.0872164,
+    "hash": "a96c7abb3fdfbc8013c42a9dac057081"
+  },
+  "/data/work/py/mini_hermes/memory/session_db.py": {
+    "mtime": 1778945375.0874424,
+    "hash": "6346f45442aafa682b3dd42eb6fab37c"
+  },
+  "/data/work/py/mini_hermes/memory/__init__.py": {
+    "mtime": 1778945375.0867047,
+    "hash": "1d7eb9a968248268b42282cbb5a77a95"
+  },
+  "/data/work/py/mini_hermes/skills/loader.py": {
+    "mtime": 1778945375.0888247,
+    "hash": "d1840071949c99940fe3d19dd3fb1f09"
+  },
+  "/data/work/py/mini_hermes/skills/manager.py": {
+    "mtime": 1778945375.0896068,
+    "hash": "ba1cdbaee8299270cfe1cefde683ab0b"
+  },
+  "/data/work/py/mini_hermes/skills/__init__.py": {
+    "mtime": 1778945375.0884752,
+    "hash": "c0d7dfe0f0aea8658a35b5aa10efbc5d"
+  },
+  "/data/work/py/mini_hermes/tools/file_tools.py": {
+    "mtime": 1778945375.0907044,
+    "hash": "5ce18a06f56643f9a848939596360cb2"
+  },
+  "/data/work/py/mini_hermes/tools/memory_tool.py": {
+    "mtime": 1778945375.0908685,
+    "hash": "23638541eb08e65e86326e15d294c74c"
+  },
+  "/data/work/py/mini_hermes/tools/terminal.py": {
+    "mtime": 1778945375.0910728,
+    "hash": "25ed22c68e451a66d3398118bf0344f7"
+  },
+  "/data/work/py/mini_hermes/tools/__init__.py": {
+    "mtime": 1778945375.0905473,
+    "hash": "cbeace34a5f51407de91a7ce6148ceca"
+  },
+  "/data/work/py/mini_hermes/config.yaml": {
+    "mtime": 1778945375.08647,
+    "hash": "3014a656e1c23b0511ebdafc4d098494"
+  },
+  "/data/work/py/mini_hermes/README.md": {
+    "mtime": 1778945375.0858533,
+    "hash": "c313a49e4fa9baccc13cd76c34859f1e"
+  },
+  "/data/work/py/mini_hermes/requirements.txt": {
+    "mtime": 1778945375.087911,
+    "hash": "7b3dd1e8be858491d55e77c8a5291c4b"
+  }
+}
